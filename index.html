@@ -33,7 +33,7 @@
         <header> is a semantic element: it works exactly like <div>, but it gives information about the role of the code below.
         The "row" class is used for the Bootstrap grid.
       -->
-      <header class="row resume-header justify-content-center">
+      <header class="row resume-header justify-content-center block">
         <!--
           A container to wrap around the portrait and align it. We use Bootstrap grid columns.
           This constrains the portrait to columns of decreasing sizes
@@ -43,14 +43,14 @@
             "w-100" makes sure the image takes the full width of the column it's in
             "rounded-circle" cuts a circle around the image
           -->
-          <img class="w-100 rounded-circle my-3" src="images/portrait.svg" alt="Portrait of Firstname Lastname" width="160">
+          <img class="w-100 rounded-circle my-3" src="images/Propedeuse .jpeg" alt="Portrait of Firstname Lastname" width="160">
         </div>
         <!--
           A container to wrap around your name and tagline. Full-width at small size, then columns of increasing size.
         -->
         <div class="col-12 col-sm-8 col-md-9 col-lg-10 my-3 header-content">
-          <h1 class="fw-bolder">Loes van der Looij aTEST</h1>
-          <h5 class="fst-italic tagline">Your future Oscar and Pulitzer Price winner&nbsp;</h5>
+          <h1 class="fw-bolder textcolour1 textshadow">Loes van der Looij</h1>
+          <h5 class="textcolour">Your future Oscar and Pulitzer Price winner&nbsp;</h5>
         </div>
       </header>
 
@@ -64,7 +64,7 @@
         <!--
           <main> is another semantic element. It will contain biographical info (professional experience and education).
         -->
-        <main class="col-md-7 col-lg-8 col-xl-9 resume-main">
+        <main class="col-md-7 col-lg-8 col-xl-9 resume-main blockcolour">
 
           <!--
             <section> is yet another semantic element. The first one is for professional experience.
@@ -81,7 +81,7 @@
               <li class="biography-item row mb-2">
                 <!-- We're using a grid inside a grid so we can align logos and text -->
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/projector.svg" alt="Company logo" width="80">
+                  <img class="biography-logo mw-100 d-block mx-auto" src="images/logocofeecompany.png" alt="Company logo" width="100">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
                   <h4>Barista , Coffee Company Breda</h4>
@@ -99,7 +99,7 @@
               <li class="biography-item row mb-2">
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
                 <!-- We're using a grid inside a grid so we can align logos and text -->
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/trolley.svg" alt="Company logo" width="80">
+                  <img class="biography-logo mw-100 d-block mx-auto" src="images/starbucks logo.png" alt="Company logo" width="80">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
                   <h4>Barista , Starbucks Breda</h4>
@@ -124,12 +124,12 @@
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
                   <h4>BA in Creative Business, Breda University of Applied Sciences</h4>
-                  <h5>2022 –&nbsp;now</h5>
+                  <h5>2022 - now</h5>
                   <!-- Use the list below to talk about minors, exchanges, extra-curricular activities. -->
                   <ul class="biography-details list-unstyled">
                     <li>Propedeutic diploma obtained&nbsp;</li>
                     <li>Publishing Department&nbsp;&nbsp;</li>
-                    <li>&nbsp; Editor in Chief of Head over Heels magazine</li>
+                    <li>Editor in Chief of Head over Heels magazine</li>
                   </ul>
                 </div>
               </li>
@@ -137,10 +137,10 @@
               <!-- 2nd item in education -->
               <li class="biography-item row mb-2">
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/school.svg" alt="School logo" width="80">
+                  <img class="biography-logo mw-100 d-block mx-auto" src="images/Kw1c logo.jpeg" alt="School logo" width="80">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>HAVO Diploma, Vavo 'S-hertogenbosch&nbsp; &nbsp;</h4>
+                  <h4>Koning Willem 1 College, 'S-hertogenbosch&nbsp; &nbsp;</h4>
                   <h5>2020 - 2022</h5>
                   <ul class="biography-details list-unstyled">
                     <li>Havo Diploma&nbsp;</li>
@@ -174,33 +174,31 @@
               <li class="contact-item">
                 <a class="d-flex align-items-center" href="mailto:email@buas.nl" target="_blank">
                   <img class="contact-icon" src="images/icons/envelope.svg" alt="Email">
-                  email@buas.nl
+                  220277@buas.nl
                 </a>
               </li>
               <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://facebook.com/" target="_blank">
-                  <img class="contact-icon" src="images/icons/facebook.svg" alt="Facebook">
-                  Facebook Profile
+                <a class="d-flex align-items-center" href="https://twitter.com/Loeser_x" target="_blank">
+                  <img class="contact-icon" src="images/icons/x-twitter.svg" alt="Facebook">
+                Twitter Profile </a>
+              </li>
+              <li class="contact-item">
+                <a class="d-flex align-items-center" href="https://www.linkedin.com/in/loes-van-der-looij-760b20225/" target="_blank">
+                  <img class="contact-icon" src="images/icons/linkedin.svg" alt="LinkedIn">
+                  LinkedIn
                 </a>
               </li>
               <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://github.com/" target="_blank">
-                  <img class="contact-icon" src="images/icons/github.svg" alt="LinkedIn">
-                  GitHub Profile
-                </a>
-              </li>
-              <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://www.tiktok.com/@bredauniversityas" target="_blank">
-                  <img class="contact-icon" src="images/icons/tiktok.svg" alt="Mobile Phone">
-                  TikTok @bredauniversityas
-                </a>
+                <a class="d-flex align-items-center" href="https://www.youtube.com/channel/UC2mtc3aRXAcrX4I8XYUAypQ" target="_blank">
+                  <img class="contact-icon" src="images/icons/youtube.svg" alt="Mobile Phone">
+                YouTube</a>
               </li>
             </ul>
           </section>
 
           <!-- End of contact details, moving on to languages -->
 
-          <section class="my-3 aside-section">
+          <section class="my-3 aside-section border">
             <h2>Languages</h2>
             <!-- Each item in the list is a language. Modify, add or remove depending on what you speak -->
             <ul class="language-list list-unstyled">
@@ -221,7 +219,7 @@
                 </div>
               </li>
               <li class="language-item d-flex mb-1">
-                <h5 class="language-name w-50">Spanish</h5>
+                <h5 class="language-name w-50">German&nbsp;</h5>
                 <div class="language-level w-50 border border-info border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
                   <div class="language-progress position-absolute bg-warning h-100 w-50"></div>
@@ -229,7 +227,7 @@
                 </div>
               </li>
               <li class="language-item d-flex mb-1">
-                <h5 class="language-name w-50">German</h5>
+                <h5 class="language-name w-50">French&nbsp;</h5>
                 <div class="language-level w-50 border border-info border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
                   <div class="language-progress position-absolute bg-warning h-100 w-25"></div>
@@ -244,7 +242,7 @@
           <section class="my-3 aside-section">
             <h2>More Skills</h2>
             <ul class="skill-list list-unstyled">
-              <li class="skill-item">&nbsp;Management skills&nbsp;</li>
+              <li class="skill-item">Management skills&nbsp;</li>
               <li class="skill-item">Writing&nbsp;&nbsp;</li>
               <li class="skill-item">Adobe Creative Cloud&nbsp;</li>
             </ul>
