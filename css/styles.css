@@ -1,14 +1,15 @@
 /* Use this file to use your own styles*/
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 /* Styles for the body */
 
 body {
-	font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+	font-family: playfair display;
 	color: #202030;
 	background-color: #2E3030;
+	font-style: normal;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
@@ -56,3 +57,7 @@ body {
 
 .blockcolour {border: dotted #3748D0}
 
+
+.language-progress {background-color: #FF00F3 !important
+	
+}
